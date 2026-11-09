@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.faithdrivencreator/media-probe",
+  "title": "Video Frame Extractor & Media Probe for AI Agents",
+  "description": "ffprobe metadata, frames, scene cuts, contact sheet and loudness from direct video or audio links.",
+  "version": "1.0.0",
+  "websiteUrl": "https://apify.com/fluidfaith/media-probe",
+  "repository": {
+    "url": "https://github.com/faithdrivencreator/apify-agent-tools",
+    "source": "github",
+    "subfolder": "media-probe"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.apify.com/?tools=fluidfaith/media-probe",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "Bearer <your Apify API token>, or sign in with Apify OAuth",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
