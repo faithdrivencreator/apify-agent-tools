@@ -6,11 +6,12 @@ Small, dependable tools for AI agents, hosted on Apify and usable as remote MCP 
 |---|---|---|---|
 | [Mobile Website Test](https://apify.com/fluidfaith/mobile-qa-gate) | PASS or FAIL per page on today's phones (iPhone, Galaxy, Pixel) with screenshots | `https://mcp.apify.com/?tools=fluidfaith/mobile-qa-gate` | $0.01 per page per phone |
 | [Lighthouse & Accessibility Audit](https://apify.com/fluidfaith/lighthouse-gate) | Lighthouse scores, Core Web Vitals, axe accessibility issues, PASS/FAIL and top fixes | `https://mcp.apify.com/?tools=fluidfaith/lighthouse-gate` | $0.02 per URL per form factor |
+| [Mermaid, Graphviz & Chart to PNG, SVG or PDF](https://apify.com/fluidfaith/mermaid-chart-renderer) | Diagram or chart code (Mermaid, Graphviz, Vega-Lite, Chart.js, SVG) to a PNG, SVG or PDF link, with error lines when the code is wrong | `https://mcp.apify.com/?tools=fluidfaith/mermaid-chart-renderer` | $0.003 per diagram |
 | [Visual Regression Test & Screenshot Diff](https://apify.com/fluidfaith/visual-diff-gate) | Two pages (production vs preview) on desktop and phone: percent changed, changed regions, diff image, PASS or FAIL | `https://mcp.apify.com/?tools=fluidfaith/visual-diff-gate` | $0.005 per page pair per viewport |
 | [Video Frame Extractor & Media Probe](https://apify.com/fluidfaith/media-probe) | ffprobe metadata, frames, scene cuts, contact sheet, loudness and MP3 from direct video or audio links | `https://mcp.apify.com/?tools=fluidfaith/media-probe` | $0.001 per frame |
 | [PDF to Markdown with Tables](https://apify.com/fluidfaith/pdf-to-markdown-tables) | PDF, Word, PowerPoint, Excel to Markdown plus tables as JSON rows, OCR for scans | `https://mcp.apify.com/?tools=fluidfaith/pdf-to-markdown-tables` | $0.002 per page |
 
-Load several at once: `https://mcp.apify.com/?tools=fluidfaith/visual-diff-gate,fluidfaith/mobile-qa-gate,fluidfaith/lighthouse-gate,fluidfaith/pdf-to-markdown-tables,fluidfaith/media-probe`
+Load several at once: `https://mcp.apify.com/?tools=fluidfaith/mermaid-chart-renderer,fluidfaith/visual-diff-gate,fluidfaith/mobile-qa-gate,fluidfaith/lighthouse-gate,fluidfaith/pdf-to-markdown-tables,fluidfaith/media-probe`
 
 Each folder has copy-paste examples (MCP config, Python, JavaScript, LangChain) and the `server.json` used for the official MCP Registry.
 
